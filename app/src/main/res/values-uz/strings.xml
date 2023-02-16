@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Авто қисимлар</string>
+    <string name="lorem_ipsum">Лорем ипсум ис а наме фор а cоммон тйпе оф плаcеҳолдер техт.  Алсо кноwн ас филлер ор думмй техт,  тҳис ис симплй техт cопй тҳат сервес то филл а спаcе wитҳоут аcтуаллй сайинг анйтҳинг меанингфул. </string>
+
+    <string name="users_count_text">Фойдаланувчилар сони</string>
+
+    <string name="register"><u>Рўйхатдан ўтиш</u></string>
+    <string name="register_title">Рўйхатдан ўтиш</string>
+    <string name="register_text">Рўйхатдан ўтиш учун \n <font fgcolor='#fa6e00'> исмингиз </font> ва <font fgcolor='#fa6e00'> телефон рақамингизни \n</font> мобил оператри коди билан киритинг! </string>
+
+    <string name="phone_empty_error">Телефон рақамингизни киритинг! </string>
+    <string name="phone_number_invalid_error">Телефон рақами нотўғри! </string>
+    <string name="fullName_empty_error">Исмингизни киритинг!</string>
+
+    <string name="validation_code_invalid">Тасдиқлаш коди нотўғри! Текшириб қайта киритинг! </string>
+    <string name="validation_code_empty">Тасдиқлаш кодини киритинг!</string>
+    <string name="confirm">Тасдиқлаш</string>
+    <string name="send">Юбориш</string>
+    <string name="login"><u>Кириш</u></string>
+    <string name="login_title">Кириш</string>
+    <string name="logout">Чиқиш</string>
+    <string name="login_text">Дастурга кириш учун <font fgcolor='#fa6e00'>Телефон рақамингизни</font> киритинг!</string>
+    <string name="tastiqlash_code">СМС орқали келган <font fgcolor='#fa6e00'>Кодни</font> "Тасдиқлаш" майдонига киритинг</string>
+    <string name="tasdiqlash_code_kelmasa">Агар код келмаса <font fgcolor='#fa6e00'>%1$s дақиқадан</font> кейин юборишни сўрашингиз мумкин.</string>
+    <string name="didn_t_get_otp_resend">Код келмадими? <font fgcolor='#fa6e00'>Қайта юбориш</font></string>
+
+    <string name="please_wait">Илтимос кутинг...</string>
+
+    <string name="brand">Брэнд: </string>
+    <string name="country">Давлат: </string>
+    <string name="category">Категория: </string>
+    <string name="count">Сони</string>
+    <string name="similar_products_title">Ўхшаш махсулотлар</string>
+    <string name="history">Тарих</string>
+    <string name="tital">Жами: </string>
+    <string name="cart">Махсулотлар савати</string>
+    <string name="order">Буюртма бериш</string>
+    <string name="product_search">Махсулот қидириш...</string>
+    <string name="fullName">Исм: </string>
+    <string name="fullName_title">Исм </string>
+    <string name="phone">Телефон: </string>
+    <string name="phone_number">Телефон рақам </string>
+    <string name="address">Манзил: </string>
+    <string name="address_title">Манзил</string>
+    <string name="settings">Созламалар</string>
+    <string name="empty_cart">Сават бўш</string>
+    <string name="sum_title">%1$s сўм</string>
+    <string name="sum_title_history">%1$s x %2$s сўм</string>
+    <string name="confirmation_page_text3">Буюртмангиз муваффақиятли юборилди!</string>
+    <string name="confirmation_page_text4">Администраторимиз сиз билан тез орада боғланади</string>
+    <string name="history_is_empty_text">Буюртмаларингиз рўйхатини \nшу ерда кўришингиз мумкин.</string>
+
+    <string name="dollar_rate_text">Курс: %1$s сўм</string>
+    <string name="awaiting_products">Махсулотлар тез кунда\n жойлаштирилади...</string>
+</resources>

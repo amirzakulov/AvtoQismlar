@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "676484947675",
+    "project_id": "avtoqismlar",
+    "storage_bucket": "avtoqismlar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676484947675:android:5aca26c44ff5fe3d6276fe",
+        "android_client_info": {
+          "package_name": "uz.almirab.avtoqismlar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676484947675-8ltkkhf7a87s6cl1rg1q53imq8a945bu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uz.almirab.avtoqismlar",
+            "certificate_hash": "fbf7c102fc412395bddb1060c998b956db826cb0"
+          }
+        },
+        {
+          "client_id": "676484947675-bu7ro02cd2taa4ckejcqi1d0ufrm1p8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCD3OpLfRcxkCBRkGGyj_lvJGljS5lXlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676484947675-bu7ro02cd2taa4ckejcqi1d0ufrm1p8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

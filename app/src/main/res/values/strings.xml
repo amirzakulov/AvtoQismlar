@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name" translatable="false">Avto Qismlar</string>
+    <string name="app_title">Avto Qismlar</string>
+    <string name="lorem_ipsum">Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply text copy that serves to fill a space without actually saying anything meaningful.</string>
+
+    <string name="users_count_text">Foydalanuvchilar soni</string>
+
+    <string name="register"><u>Ro\'yxatdan o\'tish</u></string>
+    <string name="register_title">Ro\'yxatdan o\'tish</string>
+    <string name="register_text">Ro\'yxatdan o\'tish uchun \n <font fgcolor='#fa6e00'> ismingiz </font> va <font fgcolor='#fa6e00'> telefon raqamingizni \n</font> mobil operatori kodi bilan kiriting! </string>
+
+    <string name="phone_empty_error">Telefon raqamingizni kiriting! </string>
+    <string name="phone_number_invalid_error">Telefon raqami noto\'g\'ri! </string>
+    <string name="fullName_empty_error">Ismingizni kiriting!</string>
+    <string name="validation_code_invalid">Tasdiqlash kodi noto\'g\'ri! Tekshirib qayta kiriting! </string>
+    <string name="validation_code_empty">Tasdiqlash kodini kiriting!</string>
+
+    <string name="login"><u>Kirish</u></string>
+    <string name="login_title">Kirish</string>
+    <string name="login_text">Dasturga kirish uchun <font fgcolor='#fa6e00'>Telefon raqamingizni</font> kiriting! </string>
+
+    <string name="confirm">Tasdiqlash</string>
+    <string name="send">Yuborish</string>
+    <string name="tastiqlash_code">SMS Orqali kelgan <font fgcolor='#fa6e00'>Kodni</font> "Tasdiqlash" maydoniga kiriting</string>
+    <string name="tasdiqlash_code_kelmasa">Agar kod kelmasa <font fgcolor='#fa6e00'>%1$s daqiqadan</font> keyin qayta yuborishni so\'rashingiz mumkin.</string>
+    <string name="didn_t_get_otp_resend">Kod kelmadimi? <font fgcolor='#fa6e00'>Qayta yuborish</font></string>
+    <string name="please_wait">Iltimos kuting...</string>
+
+    <string name="logout">Chiqish</string>
+
+    <string name="brand">Brend: </string>
+    <string name="country">Davlat: </string>
+    <string name="category">Kategoriya: </string>
+    <string name="count">Soni</string>
+    <string name="similar_products_title">O\'xshsh maxsulotlar</string>
+    <string name="history">Tarix</string>
+    <string name="tital">Jami: </string>
+    <string name="cart">Maxsulotlar savati</string>
+    <string name="order">Buyurtma berish</string>
+    <string name="product_search">Maxsulot qidirish...</string>
+    <string name="fullName">Ism: </string>
+    <string name="fullName_title">Ism </string>
+    <string name="phone">Telefon: </string>
+    <string name="phone_number">Telefon raqam </string>
+    <string name="address">Manzil: </string>
+    <string name="address_title">Manzil</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="empty_cart">Savat Bo\'sh</string>
+
+    <string name="sum_title">%1$s so\'m</string>
+    <string name="sum_title_history">%1$s x %2$s so\'m</string>
+    <string name="confirmation_page_text3">Buyurtmangiz muvaffaqiyatli yuborildi!</string>
+    <string name="confirmation_page_text4">Administratorimiz siz bilan tez orada bog\'lanadi</string>
+    <string name="history_is_empty_text">Buyurtmalaringiz ro\'yxatini \nshu erda ko\'rishingiz mumkin</string>
+
+    <string name="dollar_rate_text">Kurs: %1$s so\'m</string>
+    <string name="awaiting_products">Maxsulotlar tez kunda\n joylashtiriladi...</string>
+</resources>

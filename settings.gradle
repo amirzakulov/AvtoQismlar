@@ -1,0 +1,2 @@
+rootProject.name = "Avto Qismlar"
+include ':app'

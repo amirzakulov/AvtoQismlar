@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/size_10dp"
+        >
+
+        <ImageView
+            android:id="@+id/notification_logo"
+            android:layout_width="@dimen/size_60dp"
+            android:layout_height="@dimen/size_60dp"
+            android:layout_marginLeft="@dimen/size_10dp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:src="@drawable/logo"
+            />
+
+        <TextView
+            android:id="@+id/notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="@dimen/text_20sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/notification_logo"
+            android:layout_marginStart="@dimen/size_10dp"
+            android:layout_marginTop="@dimen/size_15dp"
+            />
+
+        <TextView
+            android:id="@+id/notification_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To add firebase to the project please refer"
+            android:textSize="@dimen/text_16sp"
+            android:layout_below="@id/notification_title"
+            android:layout_toEndOf="@+id/notification_logo"
+            android:layout_marginStart="@dimen/size_10dp"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

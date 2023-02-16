@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/auth_top_background"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/size_15dp"
+        android:textSize="@dimen/size_24dp"
+        android:padding="@dimen/size_5dp"
+        android:fontFamily="@font/agencyfbbold"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/register_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/register_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_13sp"
+        android:layout_marginTop="@dimen/size_40dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <!-- 1. Input for Phone Number   -->
+    <LinearLayout
+        android:visibility="visible"
+        android:id="@+id/phone_number_send_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/size_180dp"
+        android:background="@drawable/auth_background"
+        android:orientation="vertical"
+        android:padding="@dimen/size_20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/size_50dp"
+                android:layout_height="@dimen/size_40dp"
+                android:background="@drawable/phone_prefix_rounded"
+                android:gravity="center"
+                android:text="+998"
+                android:textColor="#fff"
+                android:textSize="@dimen/text_13sp" />
+
+            <EditText
+                android:id="@+id/user_phone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_40dp"
+                android:background="@drawable/phone_input_rounded"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:hint="@string/phone_number"
+                android:imeOptions="actionGo"
+                android:inputType="phone"
+                android:maxEms="12"
+                android:maxLength="9"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/whitish"
+                android:textSize="@dimen/text_13sp"
+                android:focusableInTouchMode="true"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/phone_Error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/text_11sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/full_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_40dp"
+                android:layout_marginTop="@dimen/size_15dp"
+                android:background="@drawable/input_rounded"
+                android:gravity="center"
+                android:hint="@string/fullName_title"
+                android:maxEms="12"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/whitish"
+                android:textSize="@dimen/text_13sp"
+                android:focusableInTouchMode="true"
+
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/user_name_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/text_11sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/user_address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_40dp"
+                android:layout_marginTop="@dimen/size_15dp"
+                android:background="@drawable/input_rounded"
+                android:gravity="center"
+                android:hint="@string/address_title"
+                android:maxEms="12"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/whitish"
+                android:textSize="@dimen/text_13sp"
+                android:focusableInTouchMode="true"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_40dp"
+            android:layout_marginTop="@dimen/size_15dp"
+            android:background="@drawable/register_button"
+            android:text="Yuborish"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_13sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:animateLayoutChanges="true"
+            android:id="@+id/phone_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/size_40dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Iltimos kuting..."
+                android:gravity="center"
+                />
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="@dimen/size_5dp"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:indeterminate="true"
+                android:layout_marginStart="@dimen/size_50dp"
+                android:layout_marginEnd="@dimen/size_50dp"
+                android:indeterminateTint="@color/course_block_color"
+                />
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <!-- 2. Input for OTP -->
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/verification_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/auth_background"
+        android:orientation="vertical"
+        android:padding="@dimen/size_20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/codeSentDescriptionTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_40dp"
+            android:gravity="center"
+            android:text="@string/tastiqlash_code"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_13sp" />
+
+        <TextView
+            android:id="@+id/tasdiqlash_code_kelmasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_5dp"
+            android:gravity="center"
+            android:text="@string/tasdiqlash_code_kelmasa"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_13sp" />
+
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_20dp"
+            android:gravity="center"
+            android:text="02:00"
+            android:textColor="@color/course_block_color"
+            android:textSize="@dimen/text_16sp" />
+
+        <EditText
+            android:id="@+id/verification_code"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_40dp"
+            android:layout_marginTop="@dimen/size_30dp"
+            android:background="@drawable/input_rounded"
+            android:gravity="center"
+            android:digits="0123456789"
+            android:hint="* * * * * *"
+            android:maxEms="12"
+            android:maxLength="6"
+            android:nextFocusForward="@+id/user_phone"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/text_13sp"
+            />
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/resendCodeTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:textAlignment="center"
+            android:textColor="#777777"
+            android:text="@string/didn_t_get_otp_resend"
+            />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/validationCodeInvalid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_15dp"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:textAlignment="center"
+            android:textColor="#777777"
+            android:textSize="@dimen/text_10sp"
+            android:text=""
+            />
+
+        <Button
+            android:id="@+id/verifyCodeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_40dp"
+            android:layout_marginTop="@dimen/size_40dp"
+            android:background="@drawable/register_button"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_13sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:visibility="visible"
+            android:id="@+id/verification_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="@dimen/size_30dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:indeterminate="true"
+            android:layout_marginStart="@dimen/size_50dp"
+            android:layout_marginEnd="@dimen/size_50dp"
+            android:indeterminateTint="@color/white"
+
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

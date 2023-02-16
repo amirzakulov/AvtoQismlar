@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuHome"
+        android:icon="@drawable/ic_home"
+        android:title=""
+        />
+    <item android:id="@+id/menuHistory"
+        android:icon="@drawable/ic_history"
+        android:title="" />
+    <item android:id="@+id/menuCart"
+        android:icon="@drawable/ic_shopping_cart"
+        android:title="" />
+    <item android:id="@+id/menuSettings"
+        android:icon="@drawable/ic_settings"
+        android:title="" />
+<!--    <item android:id="@+id/menuUserProfile"-->
+<!--        android:icon="@drawable/ic_user_profile"-->
+<!--        android:title="" />-->
+</menu>

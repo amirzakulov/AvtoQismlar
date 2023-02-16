@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#05294b</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="course_activation_status_bg">#034565</color>
+    <color name="course_block_color">#04567e</color>
+    <color name="orange">#fa6e00</color>
+    <color name="buying">#05294b</color>
+    <color name="light">#D2D4D6</color>
+    <color name="green">#0F770F</color>
+    <color name="gray">#999999</color>
+    <color name="gray_nav_bar">#989595</color>
+    <color name="title_blue">#2A5BA8</color>
+    <color name="red">#A20C0C</color>
+    <color name="whitish">#CCDDDCDC</color>
+    <color name="navy_gray">#656B83</color>
+
+</resources>

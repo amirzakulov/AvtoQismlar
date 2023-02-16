@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-hdpi/input_rounded.xml" value="0.19791666666666666" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-hdpi/phone_input_rounded.xml" value="0.19322916666666667" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-hdpi/phone_prefix_rounded.xml" value="0.19322916666666667" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-hdpi/register_button.xml" value="0.19791666666666666" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-mdpi/bg_register_dialog.xml" value="0.1921875" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-mdpi/bg_register_dialog_icon.xml" value="0.16458333333333333" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-mdpi/ic_check.xml" value="0.16458333333333333" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-mdpi/ic_shopping_cart.xml" value="0.2324074074074074" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-mdpi/ic_shopping_cart_white.xml" value="0.17760416666666667" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-v24/auth_background.xml" value="0.19322916666666667" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-v24/course_background.xml" value="0.16666666666666666" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-v24/ic_error.xml" value="0.2635416666666667" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23055555555555557" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable-v24/ic_menu_notifications.xml" value="0.2890625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/bottom_navigation_shadow.xml" value="0.2846153846153846" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/btn_buy.xml" value="0.2890625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/btn_shopping_cart.xml" value="0.2890625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/course_background.xml" value="0.22592592592592592" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/course_item_bought.xml" value="0.23055555555555557" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/course_item_offer.xml" value="0.23055555555555557" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/guarantee_outline.xml" value="0.2890625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_check.xml" value="0.23055555555555557" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_edit.xml" value="0.2890625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_error.xml" value="0.23055555555555557" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_history.xml" value="0.2890625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_home.xml" value="0.2846153846153846" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_home_active.xml" value="0.2846153846153846" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_remove.xml" value="0.2890625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_remove2.xml" value="0.2890625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_search.xml" value="0.17708333333333334" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_settings.xml" value="0.2846153846153846" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.2890625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_shopping_cart_white.xml" value="0.2890625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_user_profile.xml" value="0.2890625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/ic_verified.xml" value="0.19907407407407407" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/indec_btn.xml" value="0.22083333333333333" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/input_rounded.xml" value="0.23055555555555557" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/lang_cyr_checked.xml" value="0.21203703703703702" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/lock_btn_orange.xml" value="0.23055555555555557" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/lock_btn_white.xml" value="0.23055555555555557" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/menu_home_item.xml" value="0.2846153846153846" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/rounded_edittext.xml" value="0.2890625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/drawable/striking_text.xml" value="0.23425925925925925" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/activity_course.xml" value="0.25885416666666666" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/activity_main_backup.xml" value="0.27291666666666664" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/activity_phone_auth.xml" value="0.17291666666666666" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/activity_product.xml" value="0.22" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/activity_products.xml" value="0.25" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/activity_registration.xml" value="0.33" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/bg_register_dialog.xml" value="0.1484375" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/category_layout.xml" value="0.27291666666666664" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/confirmation_dialog.xml" value="0.1484375" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/course_custom_dialog.xml" value="0.25885416666666666" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/courses_list.xml" value="0.25885416666666666" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/courses_list_buying.xml" value="0.25885416666666666" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/dialog_error_messages_view.xml" value="0.33" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/error_dialog.xml" value="0.13697916666666668" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/firebase_notification.xml" value="0.27291666666666664" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/fragment_bottom_menu.xml" value="0.25885416666666666" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/fragment_history.xml" value="0.27291666666666664" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/fragment_shopping_cart.xml" value="0.27291666666666664" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/fragment_user_profile.xml" value="0.27291666666666664" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/history_list.xml" value="0.27291666666666664" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/history_list_child.xml" value="0.33" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/number_picker_layout.xml" value="0.67" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/product_layout.xml" value="0.25" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/product_layout_backup.xml" value="0.209375" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/shopping_cart_list.xml" value="0.33" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/simililar_product_layout.xml" value="0.5" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/slider_item.xml" value="0.1390625" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/slider_product_images.xml" value="0.27291666666666664" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/smililar_product_layout.xml" value="0.11145833333333334" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/waiting_dialog.xml" value="0.6272727272727273" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/layout/waiting_white_dialog.xml" value="0.27291666666666664" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/menu/bottom_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/menu/manu_shopping_cart.xml" value="0.27291666666666664" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/menu/top_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25925925925925924" />
+        <entry key="..\:/kotlinapps/AvtoQisimlar/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.15885416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
